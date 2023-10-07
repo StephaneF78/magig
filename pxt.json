@@ -1,11 +1,12 @@
 {
-    "name": "magig",
+    "name": "magicHeart",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "magicbit": "github:emakefun/pxt-magicbit#3c89f5403496d921cd6bc52578b8a75adc8b3cfd",
-        "neopixel": "github:kittenbot/pxt-neopixel#v0.6.15"
+        "magicbit": "github:emakefun/pxt-magicbit#ee1b367329051c8b117ca4deb5f3a467e8d12720",
+        "neopixel": "github:kittenbot/pxt-neopixel#v0.6.15",
+        "microphone": "*"
     },
     "files": [
         "main.blocks",
@@ -16,6 +17,10 @@
     "testFiles": [
         "test.ts"
     ],
+    "targetVersions": {
+        "target": "6.0.18",
+        "targetId": "microbit"
+    },
     "supportedTargets": [
         "microbit"
     ],
